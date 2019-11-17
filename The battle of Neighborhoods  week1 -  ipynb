@@ -1,83 +1,83 @@
 {
     "cells": [
         {
+            "cell_type": "markdown",
             "metadata": {
                 "collapsed": true
             },
-            "cell_type": "markdown",
             "source": "# IBM Data Science Professional Specialization - Coursera\n ## This notebook is for the capstone project for the 9-courses specialization in Data Science of IBM. Platform Coursera. Data Science Specialization\n### This project will try to solve a problem or question by applying data science methods on the location data gotten from FourSquare API."
         },
         {
-            "metadata": {},
             "cell_type": "markdown",
+            "metadata": {},
             "source": "### Irena Akjimovikj"
         },
         {
-            "metadata": {},
             "cell_type": "markdown",
+            "metadata": {},
             "source": "### San Diego research on Zip codes "
         },
         {
-            "metadata": {},
             "cell_type": "markdown",
+            "metadata": {},
             "source": "### I. Description of the Project and Business Problem:"
         },
         {
-            "metadata": {},
             "cell_type": "markdown",
+            "metadata": {},
             "source": "For this project we  are assumming we are a company and we are trying to reach customers in San Diego. San Diego has a population estimated at 1.43 million. At the last census in 2010, San Diego's population was 1.307 million. San Diego has a population density of 4,003 people per square mile in the city proper. Starting out, it is difficult to know exactly who your target market is in San Diego, California. Even over time your ideal customers are subject to change. Therefore, it is important to evaluate your company and its products often to ensure your marketing campaigns are reaching the right people.\n\n#### Business Problem  is to analyse and select the best location in the city for our marketing campaigns targeted advertising is a way of placing ads based on demographics, on the consumers' previous buying history or on behavior. Many types of targeted advertising are used online, but advertisers use in other media as well. Examples of targeted advertising include having consumers choose which ads to view and placing ads on social networking sites and even billboards that vary depending on who is viewing them.\n"
         },
         {
-            "metadata": {},
             "cell_type": "markdown",
+            "metadata": {},
             "source": " ### II. Description of the data:\nThe main data used for this project will be from two sources:\n\nThe free of charge data we gathered from  https://www.geonames.org/postal-codes/US/CA/california.html ( From there we pulled data only for San Diego zip codes)\n\nThe venues (FourSquare API) By requesting from the FourSquare API and using these geographic coordinates we obtained informations for bussines venues near each ZIP code location.\n\n\n\n"
         },
         {
-            "metadata": {},
             "cell_type": "code",
-            "source": "## Methodology - Week 2\n",
             "execution_count": 1,
-            "outputs": []
+            "metadata": {},
+            "outputs": [],
+            "source": "## Methodology - Week 2\n"
         },
         {
-            "metadata": {},
             "cell_type": "code",
-            "source": "## Result - Week 2",
             "execution_count": 2,
-            "outputs": []
+            "metadata": {},
+            "outputs": [],
+            "source": "## Result - Week 2"
         },
         {
-            "metadata": {},
             "cell_type": "code",
-            "source": "## Conclusion / Disscusion - Week 2",
             "execution_count": 3,
-            "outputs": []
+            "metadata": {},
+            "outputs": [],
+            "source": "## Conclusion / Disscusion - Week 2"
         },
         {
-            "metadata": {},
             "cell_type": "code",
-            "source": "## Thank you ",
             "execution_count": 4,
-            "outputs": []
+            "metadata": {},
+            "outputs": [],
+            "source": "## Thank you "
         }
     ],
     "metadata": {
         "kernelspec": {
-            "name": "python3",
             "display_name": "Python 3.6",
-            "language": "python"
+            "language": "python",
+            "name": "python3"
         },
         "language_info": {
-            "name": "python",
-            "version": "3.6.8",
-            "mimetype": "text/x-python",
             "codemirror_mode": {
                 "name": "ipython",
                 "version": 3
             },
-            "pygments_lexer": "ipython3",
+            "file_extension": ".py",
+            "mimetype": "text/x-python",
+            "name": "python",
             "nbconvert_exporter": "python",
-            "file_extension": ".py"
+            "pygments_lexer": "ipython3",
+            "version": "3.6.8"
         }
     },
     "nbformat": 4,
